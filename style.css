@@ -299,6 +299,20 @@ em;
   background-color: #444;
 }
 
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
+}
+
+
 @media (max-width: 992px) {
   .projects-container {
     flex-direction: column;
